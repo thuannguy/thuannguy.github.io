@@ -29,10 +29,10 @@ owner:
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:   UA-19303709-1
+google_verify:      mK3ntGClDyZyU-_q_59H5K5VhoYwU5rBmY0SNRXFYSs
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:         73005382C6ADC0AEAA2C181C701BC530
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Ho_Chi_Minh
