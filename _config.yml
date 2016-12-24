@@ -41,7 +41,7 @@ background:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Ho_Chi_Minh
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
