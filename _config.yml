@@ -1,51 +1,60 @@
 title:            Nguy Duc Thuan
-description:      Just another .Net developer.
+description:      
 disqus_shortname: "thuannguy"
 reading_time:     false
 words_per_minute: 200
+twitter_username: thuannguy
+default_img: 
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: "http://thuannguy.com"
+url: ""
+
+# Site settings
+email: thuan at rangstrup.com
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:   UA-19303709-1
+google_verify:      mK3ntGClDyZyU-_q_59H5K5VhoYwU5rBmY0SNRXFYSs
+bing_verify:         73005382C6ADC0AEAA2C181C701BC530
 
 # Owner/author information
-owner:
-  name:           Nguy Duc Thuan
-  avatar:         avatar.jpg
-  bio:            "I'm a .Net developer who lives in Vietnam and builds a few product for myself as well as for my customers."
-  email:          thuan at rangstrup.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        thuannguy
+# Profile settings
+
+name: Nguy Duc Thuan
+profile_img: 
+profile: 
+social:
+  github: https://github.com/thuannguy
+  twitter:        https://twitter.com/thuannguy
   facebook:       
-  github:         
+  github:         https://github.com/thuannguy
   stackexchange:  http://stackoverflow.com/users/572488/thuan
   linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
-
+  email:          thuan at rangstrup.com
+  bio:            "I'm a .Net developer who lives in Vietnam and builds a few product for myself as well as for my customers."
+  
 # Background image to be tiled on all pages
 background: 
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-19303709-1
-google_verify:      mK3ntGClDyZyU-_q_59H5K5VhoYwU5rBmY0SNRXFYSs
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         73005382C6ADC0AEAA2C181C701BC530
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Ho_Chi_Minh
 future:      true
 highlighter: pygments
 markdown:    kramdown
-gems:
-  - jekyll-sitemap
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+
 sass:
   sass_dir: _sass
   style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
+  
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
 permalink:   /blog/:year/:month/:day/:title/
 
 # Amount of post to show on home page
@@ -67,5 +76,3 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-
-theme: jekyll-theme-cayman

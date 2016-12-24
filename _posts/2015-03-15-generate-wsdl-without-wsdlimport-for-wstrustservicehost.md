@@ -2,6 +2,10 @@
 layout: post
 title: "Generate WSDL without wsdl:import for WSTrustServiceHost"
 date: 2015-03-15
+categories:
+  - programming
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
 ---
 I have a WCF-powered WSTrust Security Token Service that has an endpoint like this:
 
