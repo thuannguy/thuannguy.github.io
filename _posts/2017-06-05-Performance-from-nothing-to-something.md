@@ -1,9 +1,12 @@
+
 ---
 layout: post
 title: "Performance: from nothing to something"
 description: "Performance: from nothing to something"
 tags: [Asp.Net, performance, optimization, SLA]
 comments: true
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
 ---
 
 # Performance: from nothing to something
