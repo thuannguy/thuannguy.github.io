@@ -371,15 +371,24 @@
   font-family: $font-post;
 
   @media (min-width: $mq-md) {
-    width: 55%;
+    width: 85%;
   }
 
   h1, 
   h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
     line-height: 1.2;
     border-bottom: 1px solid #eaecef;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-weight: 1.25;
+  }
+  
   p:first-child {
     font-size: 1.25em;
   }
