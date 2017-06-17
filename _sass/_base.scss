@@ -31,7 +31,12 @@ body {
   font-feature-settings: 'liga' 0;
   font-size: 16px;
   line-height: 1.5;
-
+  blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+  }
+  
   @media (min-width: $mq-xs) {
     font-size: 16px;
   }
