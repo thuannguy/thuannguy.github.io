@@ -5,6 +5,7 @@ description: "Performance: a development approach"
 tags: [Asp.Net, performance, optimization, SLA]
 comments: true
 ---
+An approach for developing application that adheres to performance SLAs
 
 In the two previous posts I have discussed about SLAs and the difficulty of satisfying all of them. Question now is: if I'm about to develop a new application or optimize an existing application, what should I do? How should I approach the problem? My suggestions are:
 
