@@ -62,7 +62,7 @@ So if latency of a GET request is 0.5s and my application can serve 200 requests
 Taking all the above into account, my application must be able to:
 - GET user requests/second/node.
 - Serve 200 GET user requests/second/node and each request must take maximum 800ms.
-- Serve 200 GET user requests/second/node and each request must take maximum 800ms during a long period of time without any hiccup: 24hours or 7 days.
-- Serve 200 GET user requests/second/node and each request must take maximum 2000ms during a long period of time without any hiccup: 24hours or 7 days when your database has 100.000.
+- Serve 200 GET user requests/second/node and each request must take maximum 800ms during a long period of time without any hiccup: 24 hours or 24/7.
+- Serve 200 GET user requests/second/node and each request must take maximum 2000ms during a long period of time without any hiccup: 24 hours straight or 24/7 when your database has 100.000 users.
 	
 As a side note, all SLAs should be defined with a minimum requirements for hardware configurations. By the time of this writing, a popular server may sport 8 cores with 8-16GB memory. For systems that need other hardware such as database servers, you should define minimum configurations for them too.
