@@ -5,6 +5,7 @@ description: "Performance: understanding the complexity of SLAs"
 tags: [Asp.Net, performance, optimization, SLA, complexity]
 comments: true
 ---
+Performance: understanding the complexity of SLAs
 
 In the previous post I have discussed about the most common performance-wise SLAs and this second post will go into more details.
 First of all, it is obvious that not all web applications need all those SLAs. For instance, let's say I have a web application that middle managers of an organization can use to review time registration of their employees every day. This kind of system generates very small load per second, but it must every request very quickly because the managers can be very impatient. Therefore, the latency SLA is all that you need to pay attention to. On the other hand, your application also has a feature what provides monthly time usage reports for all users, chance is that the users are more tolerant to slow responses, namely they are more willing to wait for a few second or even a minute to have their reports ready. Since the users can come in and request for the reports at the same time in the end of a month, it must be able to serve high amount of requests in short period of time which amplifies the importance of the throughput SLA.
