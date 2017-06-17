@@ -29,8 +29,14 @@ Availability: While availability is not a pure SLA for performance, I mention it
 | Availability | 99%   |   |   |   |
 
 For instance, a week has 10080 minutes which means if SLA is 99.9% I will have 10 minutes down time/week for maintenance or upgrade. I gotta do it quickly!
-Throughput: Throughput is a measure of the rate that work can be completed and is measured in operations per second.
-Credit: I learned about the definitions for all these concepts from https://blogs.msdn.microsoft.com/mcsuksoldev/2015/01/22/why-building-highly-scalable-applications-is-hard-part-1/ It is the best article about writing highly scalable software I have ever read and I just can't recommend it highly enough.
+
+### Credit
+I learned about the definitions for all concepts below from https://blogs.msdn.microsoft.com/mcsuksoldev/2015/01/22/why-building-highly-scalable-applications-is-hard-part-1/ It is the best article about writing highly scalable software I have ever read and I just can't recommend it highly enough.
+
+
+### Throughput
+
+> Throughput is a measure of the rate that work can be completed and is measured in operations per second.
 
 | System                            | Throughput               | Throughput                  |   |   |
 |-----------------------------------|--------------------------|-----------------------------|---|---|
@@ -39,15 +45,18 @@ Credit: I learned about the definitions for all these concepts from https://blog
 
 The numbers are straightforward: for every 1000 API requests, at least 999 of them must be served within 800ms.
 
-Latency: Latency is a measure of how long it takes an operation to complete and is normally measured in seconds. 
+### Latency
+> Latency is a measure of how long it takes an operation to complete and is normally measured in seconds. 
 
 | System                            | Response time | Percentage | Response time | Percentage |
 |-----------------------------------|---------------|------------|---------------|------------|
 | User account page                 | 1000ms        | 90%        | 2000ms        | 99.9%      |
 | GET a single user via RESTful API | 500ms         | 90%        | 800ms         | 99.9%      |
 
-Concurrency: Concurrency is the number of operations that are being processed at any moment.
-			Concurrency = Latency x Throughput.
+### Concurrency
+> Concurrency is the number of operations that are being processed at any moment.
+>			Concurrency = Latency x Throughput.
+
 So if latency of a GET request is 0.5s and my application can serve 200 requests/second, its concurrency is 0.5 * 200 = 100 concurrent active requests.
 
 Taking all the above into account, my application must be able to:
