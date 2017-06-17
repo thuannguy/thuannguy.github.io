@@ -37,6 +37,11 @@ section {
  */
 .previews {
 
+  ol, ul {
+    list-style-type: none;
+    padding-left: 2em;
+  }
+  
   @media (max-width: $mq-md) {
     display: flex;
     flex-direction: column;
