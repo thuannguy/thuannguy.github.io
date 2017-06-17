@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Performance: from nothing to something"
