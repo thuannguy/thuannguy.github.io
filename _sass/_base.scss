@@ -29,31 +29,31 @@ $mq-xxl: 114em;
 body {
   font-family: $font-body;
   font-feature-settings: 'liga' 0;
-  font-size: 100%;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.5;
 
   @media (min-width: $mq-xs) {
-    font-size: 102.5%;
+    font-size: 16px;
   }
 
   @media (min-width: $mq-sm) {
-    font-size: 105%;
+    font-size: 16px;
   }
 
   @media (min-width: $mq-md) {
-    font-size: 107.5%;
+    font-size: 16px;
   }
 
   @media (min-width: $mq-lg) {
-    font-size: 110%;
+    font-size: 17px;
   }
 
   @media (min-width: $mq-xl) {
-    font-size: 115%;
+    font-size: 18px;
   }
 
   @media (min-width: $mq-xxl) {
-    font-size: 125%;
+    font-size: 19px;
   }
 }
 
