@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Notes for creating an SSL CSR"
+description: "Notes for creating an SSL CSR"
+tags: [SSL, CSR, certificate request, sha256]
+comments: true
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
+---
+
 Notes for creating an SSL CSR
 ===================
 When you want to buy an SSL certificate from a certificate authority, the first step you need to do is to create an certificate signing request (CSR). Since there are plenty resources on the internet that show how to do that, this blog post is all about notes for small details that may help me do the whole process more easily next time. 
