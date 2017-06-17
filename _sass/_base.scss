@@ -107,11 +107,16 @@ img {
 }
 
 ol, ul {
-  margin: 0;
-  padding: 0;
-
   list-style-type: disc;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
+
+ol, ul, blockquote, p, dl, pre, table {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 
 table {
   display: block;
@@ -119,8 +124,6 @@ table {
   overflow: auto;
   border-spacing: 0;
   border-collapse: collapse;
-  margin-top: 16px;
-  margin-bottom: 16px;
 }
 
 table tr {
