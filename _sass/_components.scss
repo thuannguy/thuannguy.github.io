@@ -299,6 +299,8 @@
 
   h1 {
     line-height: 1.2;
+    font-size: 2em;
+    border-bottom: 1px solid #eaecef;
   }
 }
 
@@ -375,6 +377,7 @@
   h1, 
   h2 {
     line-height: 1.2;
+    border-bottom: 1px solid #eaecef;
   }
 
   p:first-child {
