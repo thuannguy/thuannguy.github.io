@@ -10,7 +10,7 @@ Problem solving: the mathematics and the detective ways
 Problem solving! It is a so popular topic that a quick Google search immediately returns 117 million results and I'm wring yet another blog post about it. The thing is when I'm trying to solve a problem, everything "just" works for me. In other words, I don't consciously think about how I should think to solve a specific problem or what method I should use (and I never want to constraint my mind that way!). But when I thought about it in greater length, it turned out sometimes when I read books that involve in problem solving, I did liken the techniques they described to what I unconsciously do which inspires me to complete this post.
 
 # A problem well stated is a problem half-solved
-Since I'm a math guy, I will start with an idea that I learned from a math book: "A problem well stated is a problem half-solved". If I recalled correctly, I first read about it from a book of [George Polya](https://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A283155%2Cp_27%3AGeorge%20Polya), although I now understand that it is credited to [Charles Kettering](https://www.brainyquote.com/quotes/quotes/c/charlesket181210.html). The idea is simple, but yet very powerful: if you can describe your problem good enough, you already go halfway to solving it. 
+Since I'm a math guy, I will start with an idea that I learned from a math book: "A problem well stated is a problem half-solved". If I recalled correctly, I first read about it from a book of [George Polya](https://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A283155%2Cp_27%3AGeorge%20Polya), although I now understand that it is credited to [Charles Kettering](https://www.brainyquote.com/quotes/quotes/c/charlesket181210.html). The idea is simple, yet very powerful: if you can describe your problem good enough, you already go halfway to solving it. 
 In software development industry, I usually engage in conversation like the below:
 
 	> Customer: Hi, I have a problem.
@@ -37,8 +37,7 @@ A similar technique is the rubber duck method about which Coding Horror wrote a 
 # It is a capital mistake to theorize before one has data.
 The next four ideas come from a man who lived in England, at 221b Baker street. Yes, he primarily dealt with murder cases but I consider that is problem solving anyway. The first idea from his method is:
 	
-  > It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts. 
-  > ![Sherlock Holmes](/images/sh.jpg)
+  > It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.
 
 I can observe this type of mistakes daily.
 
