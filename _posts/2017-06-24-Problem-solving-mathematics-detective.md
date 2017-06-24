@@ -37,7 +37,7 @@ A similar technique is the rubber duck method about which Coding Horror wrote a 
 The next four ideas come from a man who lived in England, at 221b Baker street. Yes, he primarily dealt with murder cases but I consider that is problem solving anyway. The first idea from his method is:
 	
   > It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts. 
-  > ![Sherlock Holmes](http://www.sherlock-holmes.co.uk/pr/silhouette-large.GIF)
+  > ![Sherlock Holmes](/images/sh.jpg)
 
 I can observe this type of mistakes daily.
 
@@ -92,6 +92,7 @@ A fun example of this idea is the multiple-choice tests. Have you ever answered 
 # Do not put a boundary around your mind, and forget all the methods
 I used to take participant in a lot of mathematics exams in which I had in average an hour for a problem. While the problems were not super hard, having to solve them in limited amount of time was the real challenge. Each problem usually had many possible directions to explore, and for every further step that I explored into a direction, there were many additional directions. 
 
+[math problem](/images/math-problem.jpg)
 
 When I looked back to how I did during those exams, a few key ideas stand out:
 
