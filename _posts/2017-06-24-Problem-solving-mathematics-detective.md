@@ -13,22 +13,22 @@ Problem solving! It is a so popular topic that a quick Google search immediately
 Since I'm a math guy, I will start with an idea that I learned from a math book: "A problem well stated is a problem half-solved". If I recalled correctly, I first read about it from a book of [George Polya](https://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A283155%2Cp_27%3AGeorge%20Polya), although I now understand that it is credited to [Charles Kettering](https://www.brainyquote.com/quotes/quotes/c/charlesket181210.html). The idea is simple, yet very powerful: if you can describe your problem good enough, you already go halfway to solving it. 
 In software development industry, I usually engage in conversation like the below:
 
-	> Customer: Hi, I have a problem.
-	> Me: Hi, what is your problem?
-	> Customer: The application doesn't work.
-	> Me: Can you tell me what you mean about it not working?
-	> Customer: It "just" doesn't work.
-	> Me: Are you unable to login to it? Or what feature doesn't work as you expected? Or are you unable to access any pages at all?
-	> Customer:
+  > Customer: Hi, I have a problem.
+  >  Me: Hi, what is your problem?
+  >  Customer: The application doesn't work.
+  >  Me: Can you tell me what you mean about it not working?
+  >  Customer: It "just" doesn't work.
+  >  Me: Are you unable to login to it? Or what feature doesn't work as you expected? Or are you unable to access any pages at all?
+  >  Customer:
 
 Do you find it familiar? If I am lucky, I might be able to find out what the problem actually is after 10 or 20 questions. Anyway, as you can see, I can't help him solve the problem. A better conversation may be:
 
-	> Customer: Hi, I have a problem with logging in. When I accessed the application at […] and entered my username and password to login, I got a weird error which said […]. Here is a screenshot […]
-	> Me: Let me see. It seems the database is under high pressure at the moment…
+  >  Customer: Hi, I have a problem with logging in. When I accessed the application at […] and entered my username and password to login, I got a weird error which said […]. Here is a screenshot […]
+  >  Me: Let me see. It seems the database is under high pressure at the moment…
 
 I have seen cases in which a team discussed about how to design a feature but couldn't reach to anywhere because the problem descriptions were obscured and every member understood it in his or her own way. Another case is when I got stuck with a problem because I was trying to think about it using customer's words. [Polya's method](https://en.wikipedia.org/wiki/How_to_Solve_It) suggests that:
 
-	> Can you restate the problem in your own words
+  >  Can you restate the problem in your own words
 
 Restating a problem using our own words is surprisingly useful. Have you ever experienced a situation when someone is explaining to you what his problem is to ask for help, he suddenly figures out an answer himself? 
 
@@ -41,15 +41,15 @@ The next four ideas come from a man who lived in England, at 221b Baker street. 
 
 I can observe this type of mistakes daily.
 
-	> Me: My gas hob is malfunctioning. It…
-	> Technician (interrupted me): I knew what is wrong. It is absolutely because […]
+  > Me: My gas hob is malfunctioning. It…
+  > Technician (interrupted me): I knew what is wrong. It is absolutely because […]
 
 Problem? He was wrong.
 
 The next example happens a lot in interviews:
 
-	> Interviewer: Please design a house
-	> Interviewee immediately draws a house
+  >  Interviewer: Please design a house
+  >  Interviewee immediately draws a house
 	
 Hey man, you should ask what kind of house the interviewer wants first, should you not?
 
@@ -57,37 +57,37 @@ It is vital to note that by making wrong a theory about a problem, you might con
 
 # You see, but you do not observe. The distinction is clear
 
-	> “You see, but you do not observe. The distinction is clear. For example, you have frequently seen the steps which lead up from the hall to this room.”
-	> “Frequently.”
-	> “How often?”
-	> “Well, some hundreds of times.”
-	> “Then how many are there?”
-	> “How many? I don’t know.”
-	> “Quite so! You have not observed. And yet you have seen. That is just my point. Now, I know that there are seventeen steps, because I have both seen and observed.”
+  >  “You see, but you do not observe. The distinction is clear. For example, you have frequently seen the steps which lead up from the hall to this room.”
+  >  “Frequently.”
+  >  “How often?”
+  >  “Well, some hundreds of times.”
+  >  “Then how many are there?”
+  >  “How many? I don’t know.”
+  >  “Quite so! You have not observed. And yet you have seen. That is just my point. Now, I know that there are seventeen steps, because I have both seen and observed.”
 
 What is the point of observing the doorsteps? In another conversation, Sherlock Holmes (yes, that is the name of the guy who lived at 221b Baker street) showed Dr. Watson how he could figure out his friend had bought an office with better business history than his neighbor:
 
-	> Holmes: “Your neighbour is a doctor.” said he, nodding at the brass plate.
-	> Watson: “Yes, he bought a practice as I did.”
-	> Holmes: “An old-established one?”
-	> Watson: “Just the same as mine. Both have been ever since the houses were built.”
-	> Holmes: “Ah! then you got hold of the best of the two.”
-	> Watson: “I think I did. But how do you know?”
-	> Holmes: “By the steps, my boy. Yours are worn three inches deeper than his.
+  >  Holmes: “Your neighbour is a doctor.” said he, nodding at the brass plate.
+  >  Watson: “Yes, he bought a practice as I did.”
+  >  Holmes: “An old-established one?”
+  >  Watson: “Just the same as mine. Both have been ever since the houses were built.”
+  >  Holmes: “Ah! then you got hold of the best of the two.”
+  >  Watson: “I think I did. But how do you know?”
+  >  Holmes: “By the steps, my boy. Yours are worn three inches deeper than his.
 
 I like observing other people around me doing problem solving, e.g. analyzing tracing data or debugging a bug. Sometimes, the clues to solve their problems showed up clearly on the screens but they just didn't notice. Looking at data is miles different from observing information/details on it.
 
 # Because I was looking for it
 The dialogue below comes from a movie. I recall that there is a similar one in the books, but I wasn't able to look it up.
 
-	> Watson: How did you see that?
-	> Holmes: Because I was looking for it.
+  >  Watson: How did you see that?
+  >  Holmes: Because I was looking for it.
 
 The dialogue usually occurred when Sherlock Holmes seemed to find new clues for a case out of thin air. However, as he explained, he was able to do that because he knew what he needed to find and intentionally looked for it. This is the key. After you have necessary data and observe/analyze it, you can make educated guess about what details can help you solve your problem and try to look for it. For example, I had a case about my application sometimes consumed too much memory on a customer server. After analyzing initial data, I was able to narrow down the causes to 3rd applications installed to IIS and asked the client to collect additional necessary data for me. Knowing what you need to look for can help you find it and solve your problems much faster.
 
 # When you have eliminated the impossible, whatever remains, however improbable, must be the truth
-	> "You will not apply my precept," he said, shaking his head. "How often have I said to you that when you have eliminated the impossible, whatever remains, however improbable, must be the truth? We know that he did not come through the door, the window, or the chimney. We also know that he could not have been concealed in the room, as there is no concealment possible. When, then, did he come?"
-	>     The Sign of the Four, ch. 6 (1890)
+  >  "You will not apply my precept," he said, shaking his head. "How often have I said to you that when you have eliminated the impossible, whatever remains, however improbable, must be the truth? We know that he did not come through the door, the window, or the chimney. We also know that he could not have been concealed in the room, as there is no concealment possible. When, then, did he come?"
+  >      The Sign of the Four, ch. 6 (1890)
 
 A fun example of this idea is the multiple-choice tests. Have you ever answered a question that you know for sure A, C and D are not the correct and thus B must be the answer even though you don't have a clue about what the heck B is. This idea is pretty straightforward, but the key point is that you must be absolutely sure that your elimination of the impossible is right. If you mistakenly eliminated the right one, you would be in a dead end.
 
