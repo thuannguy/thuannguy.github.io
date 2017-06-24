@@ -20,6 +20,7 @@ In software development industry, I usually engage in conversation like the belo
 	> Customer: It "just" doesn't work.
 	> Me: Are you unable to login to it? Or what feature doesn't work as you expected? Or are you unable to access any pages at all?
 	> Customer:
+
 Do you find it familiar? If I am lucky, I might be able to find out what the problem actually is after 10 or 20 questions. Anyway, as you can see, I can't help him solve the problem. A better conversation may be:
 
 	> Customer: Hi, I have a problem with logging in. When I accessed the application at […] and entered my username and password to login, I got a weird error which said […]. Here is a screenshot […]
@@ -43,6 +44,7 @@ I can observe this type of mistakes daily.
 
 	> Me: My gas hob is malfunctioning. It…
 	> Technician (interrupted me): I knew what is wrong. It is absolutely because […]
+
 Problem? He was wrong.
 
 The next example happens a lot in interviews:
@@ -81,6 +83,7 @@ The dialogue below comes from a movie. I recall that there is a similar one in t
 
 	> Watson: How did you see that?
 	> Holmes: Because I was looking for it.
+
 The dialogue usually occurred when Sherlock Holmes seemed to find new clues for a case out of thin air. However, as he explained, he was able to do that because he knew what he needed to find and intentionally looked for it. This is the key. After you have necessary data and observe/analyze it, you can make educated guess about what details can help you solve your problem and try to look for it. For example, I had a case about my application sometimes consumed too much memory on a customer server. After analyzing initial data, I was able to narrow down the causes to 3rd applications installed to IIS and asked the client to collect additional necessary data for me. Knowing what you need to look for can help you find it and solve your problems much faster.
 
 # When you have eliminated the impossible, whatever remains, however improbable, must be the truth
@@ -92,9 +95,9 @@ A fun example of this idea is the multiple-choice tests. Have you ever answered 
 # Do not put a boundary around your mind, and forget all the methods
 I used to take participant in a lot of mathematics exams in which I had in average an hour for a problem. While the problems were not super hard, having to solve them in limited amount of time was the real challenge. Each problem usually had many possible directions to explore, and for every further step that I explored into a direction, there were many additional directions. 
 
-[math problem](/images/math-problem.jpg)
+![math problem](/images/math-problem.jpg)
 
-When I looked back to how I did during those exams, a few key ideas stand out:
+When I looked back to how I did during those exams, a few key ideas stand out (note: which might make no sense to you):
 
 - Be flexible and do not get hooked into any direction. Look at the problem from different angles and consider all possibilities.
 - Forget all the problem solving methods. This might sound weird to you, and I admitted that it might be a bad advice to give to other people, but it worked for me. Indeed, I have never told anyone to do this way :P
