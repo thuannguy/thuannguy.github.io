@@ -6,6 +6,7 @@ tags: [dependency injection, object graph, performance]
 comments: true
 ---
 Dependency injection: dealing with large object graph
+
 I have a big web application that applies [Dependency Injection](https://martinfowler.com/articles/injection.html). Since it is a web application, it made sense that I started with using per-web-request lifestyle for most of the services registered to the IoC container. Everything had worked just fine until at one point my application had more than 600 components and I had to [improve performance](https://www.thuannguy.com/blog/2017/06/16/Performance-understanding-the-complexity/) for it. It turned out that resolving the [composition root](https://stackoverflow.com/questions/6277771/what-is-a-composition-root-in-the-context-of-dependency-injection) alone took from 7ms to 25ms depending on load status of a server. As a side note, size of object graph is not the only factor that causes slow resolve time but it is out of the topic of this post. Getting back on topic, I will discuss a few ways to deal with this issue.
 
 # Measure
