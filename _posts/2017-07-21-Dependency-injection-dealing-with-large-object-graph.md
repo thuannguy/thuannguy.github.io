@@ -34,7 +34,8 @@ It's true. I have a few options:
 
 * Use factory pattern which means that I can inject the factory service with singleton lifestyle and use it to create the real objects for each individual request.
 
-```public interface IPerWebRequestLifestyleServiceFactory
+```
+public interface IPerWebRequestLifestyleServiceFactory
 {
     public IPerWebRequestLifestyleService Create(/* more parameters can go here */);
 }
@@ -59,7 +60,8 @@ public class DoSomethingSingletonService
 * New objects directly.
 * Define a container service which wraps the actual container and inject it to where it is needed. This option is useful when I need create a whole (small) object graph instead of just a single object. While you can rightly point out that this is a kind of service locator anti-pattern, I still happily used it because it worked well for me while none of the other options were viable on that specific situation.
 
-```public class DoSomethingSingletonService
+```
+public class DoSomethingSingletonService
 {
     private readonly IContainerWrapper container;
     public DoSomethingSingletonService(IContainerWrapper container)
