@@ -4,7 +4,7 @@ title: "Test draft post"
 description: "Test draft post"
 tags: [Test]
 comments: true
-draft: true
+published: false
 ---
 
 This post should not appear in the front page.
