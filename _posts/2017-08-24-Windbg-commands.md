@@ -4,6 +4,7 @@ title: "Windbg commands"
 description: "Windbg commands"
 tags: [Windbg, commands]
 comments: true
+image: images/header1.jpg
 ---
 Windbg commands
 
