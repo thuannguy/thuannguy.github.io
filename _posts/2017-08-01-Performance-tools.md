@@ -4,6 +4,7 @@ title: "Performance: useful tools"
 description: "Performance: useful tools"
 tags: [Net, performance, optimization, tools, profiler, profiling, benchmark]
 comments: true
+image: https://www.thuannguy.com/images/header1.jpg
 ---
 Useful tools for dealing with performance matter in .Net world.
 

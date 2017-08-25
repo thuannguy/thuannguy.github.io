@@ -4,11 +4,11 @@ title: "Windbg commands"
 description: "Windbg commands"
 tags: [Windbg, commands]
 comments: true
-image: https://www.thuannguy.com/images/header1.jpg
+image: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/images/windbggetstart01.png
 ---
 Windbg commands
 
-Occasionally I need to use Windbg to analyze issue in production environment but I can never remember its commands and google for them can be annoying because the commands may change between different .Net versions. Perhaps writing a blog post so that I can find them later using Google is a good idea! 
+Occasionally I need to use [Windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg) to analyze issue in production environment but I can never remember its commands and google for them can be annoying because the commands may change between different .Net versions. Perhaps writing a blog post so that I can find them later using Google is a good idea! 
 
 # Common commands
 Load SOS:

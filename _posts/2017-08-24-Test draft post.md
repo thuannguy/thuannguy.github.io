@@ -5,7 +5,7 @@ description: "Test draft post"
 tags: [Test]
 comments: true
 published: false
-image: images/header1.jpg
+image: https://www.thuannguy.com/images/header1.jpg
 ---
 
 This post should not appear in the front page.
