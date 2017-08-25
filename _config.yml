@@ -22,7 +22,7 @@ bing_verify:         73005382C6ADC0AEAA2C181C701BC530
 # Profile settings
 
 name: Nguy Duc Thuan
-profile_img: 
+profile_img: https://thuannguy.com/images/avatarx.jpg
 profile: 
 social:
   github: https://github.com/thuannguy
@@ -32,7 +32,7 @@ social:
   stackexchange:  http://stackoverflow.com/users/572488/thuan
   linkedin:       
   email:          thuan at rangstrup.com
-  bio:            "I'm a .Net developer who lives in Vietnam and builds a few product for myself as well as for my customers."
+  bio:            "I'm a .Net developer who lives in Vietnam and builds a few products for myself as well as for my customers."
   
 # Background image to be tiled on all pages
 background: 
