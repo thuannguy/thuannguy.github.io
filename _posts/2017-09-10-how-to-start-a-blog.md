@@ -70,3 +70,9 @@ As with almost everything else, getting started is the hardest step. Writing the
 Now that Sam has published his first post, he wants to let the world know about it. In addition to all the SEO stuff, he can send it to his colleagues and tweet about it. As long as he spends decent efforts on his blog, eventually he will get more and more readers.
 
 Hope this help :)
+
+## Credits
+
+Images used in this blog post are provided by:
+
+- http://maxpixel.freegreatpicture.com/Internet-Media-Blog-Communication-Technology-Web-2355684
