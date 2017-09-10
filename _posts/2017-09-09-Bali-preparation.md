@@ -25,6 +25,7 @@ My trip had 6 full days in Bali plus 2 days for flying. Because Bali is a big is
 After knowing when to go and how many days the trip would take, the first three steps of preparation were to book flights, hotels, and find a good private driver in Bali.
 
 ## Flights
+
 Who doesn't like cheap flight tickets? I had two options which were either to wait for really cheap tickets or to buy the cheapest tickets I could find at the time of preparation. Because planning a trip for many people was not easy and I needed to finalize the plan ASAP, I decided to go with the latter. Although Tiger Airways seemed to offer the cheapest tickets, a friend of mine who is a booker showed me that after factoring in all fee and tax and luggage cost, flying with Singapore Airlines only cost about 10% more. Therefore, choosing Singapore Airlines was a no-brainer to me which turned out to be a very correct decision.
 
 ## Hotels
