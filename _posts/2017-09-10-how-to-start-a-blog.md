@@ -7,7 +7,7 @@ comments: true
 published: true
 categories:
   - Blog
-image: http://maxpixel.freegreatpicture.com/photo-2355684
+image: https://www.thuannguy.com/images/blog-image.jpg
 ---
 # Why does every developer need to have a blog
 
