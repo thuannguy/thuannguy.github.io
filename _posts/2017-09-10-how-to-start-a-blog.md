@@ -11,7 +11,7 @@ image: https://www.thuannguy.com/images/blog-image.jpg
 ---
 # Why does every developer need to have a blog
 
-Because this post is about the HOW, you can simply head to https://www.hanselman.com/blog/YourWordsAreWasted.aspx for reasons about why you should have a blog.
+Because this post is about the HOW, you can simply head to [Scott Hanselman](https://www.hanselman.com/blog/YourWordsAreWasted.aspx) for reasons about why you should have a blog.
 
 After knowing why you may want to have a blog, it's time to discuss about where to host a blog and what and when to write blog posts.
 
