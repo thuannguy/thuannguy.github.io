@@ -51,14 +51,14 @@ So what can Sam do? My suggestions are:
 
 The best time to write a blog post is when the following conditions are met:
 
-- When Sam has a fresh idea is his mind, aka before it fades away. I have many times had ideas about blog posts that I want to write and totally threw them away the day after.
+- When Sam has a fresh idea is his mind and before it fades away. Sam many times had ideas about blog posts before that he wanted to write and totally threw them away the day after.
 - When Sam has time to think about the idea well enough.
 - When Sam has time to write!
-- When Sam has polished his post and thus it is ready to publish now. Yep, the fact that he doesn't need to have a perfect blog post doesn't mean he can publish a crappy post.
+- When Sam has polished his post and thus it is ready to publish now. Yep, the fact that he doesn't need to have a perfect post doesn't mean he can publish a crappy post.
 
 Unfortunately, you can easily find that all the bullets above seem conflict to each other. One way which works for me is:
 
-- When I have an idea, I write it down immediately to either an unpublished post or OneNote. It is important to make sure it is synced to a source control or a cloud service. For example, when I fix a subtle bug which causes by an interesting issue, I can take quick note about it.
+- When I have an idea, I write it down immediately to either an unpublished post or OneNote. For instance, when I fix a subtle bug which causes by an interesting issue, I can take quick note about it. Making sure it is synced to a source control or a cloud service is important because that helps you access update the idea from anywhere.
 - Think more about how I want to express it. Good time is during lunch or when I'm driving home.
 - For every new detail I think I can add to the post, I write it down ASAP.
 - In a weekend or at a late night, I can spend a couple of hours to turn all the quick notes into a good blog post.
