@@ -67,7 +67,7 @@ As with almost everything else, getting started is the hardest step. Writing the
 
 ## Letting the world know
 
-Now that Sam has published his first post, he wants to let the world know about it. In addition to all the SEO stuff, he can send it to his colleagues and tweet about it. As long as he spends decent efforts on his blog, eventually he will get more and more readers.
+Now that Sam has published his first post, he wants to let the world know about it. In addition to all the SEO stuff, he can send it to his colleagues and tweet about it. As long as he spends decent efforts on his blog, eventually he will get more and more readers. Btw, in order to help him improve his writing skill, I have a follow up post about [how to write a good blog post](https://www.thuannguy.com/blog/2017/07/21/Dependency-injection-dealing-with-large-object-graph-writing-analysis).
 
 Hope this help :)
 
