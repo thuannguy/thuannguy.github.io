@@ -20,6 +20,7 @@ After knowing why you may want to have a blog, it's time to discuss about where 
 As a developer, I would recommend using [Github pages](https://pages.github.com/) because of the following reasons:
 
 - It means you write a post by adding a new Markdown file to your Git repository, add content and commit -> push exactly the same way you do with code.
+- Because you want to take part in Github which is where virtually all good open sources projects are hosted now, right?  
 - It's static pages which render very fast. You want your blog to be rendered very fast everywhere, right?
 - Github handles all the server thingies such as CDN, high availability, backup for you, security etc. for you.
 - Https is supported.
@@ -42,7 +43,7 @@ Let meet Sam who is a junior developer. Sam wants to start a blog but he might f
 So what can Sam do? My suggestions are:
 
 - Unless Sam is totally useless at his job which is obviously not the case, he must learn something from his daily tasks. It may be something he learned from implementing a new small feature or fixing a bug or a clever tip to write a good unit test. All those things, no matter how small Sam thinks they are, are worth a blog post.
-- Even if someone else already wrote about it, who cares? As long as Sam writes hist post in his own words, it is good enough. A post doesn't have to be long or about something important. Even the legendary Ayende sometimes wrote a [two-line post](https://ayende.com/blog/10/thunderbird-ie).
+- Even if someone else already wrote about it, who cares? As long as Sam writes his post in his own words, it is good enough. A post doesn't have to be long or about something important. Even the legendary Ayende sometimes wrote a [two-line post](https://ayende.com/blog/10/thunderbird-ie).
 - Making mistakes is a part of the learning process. I have no doubt that many good bloggers now went through the junior phase before and their first couple of posts weren't as good as what you see from them today.
 - Yep, it might be true that Sam's writing skill is not good yet. On the other hand, Sam can't improve his writing skill without practicing it. Therefore, I would suggest Sam starting writing now and asking for feedback from his peers. At the same time, he can easily find plenty of good resources about how to write a good blog post on the internet. The most important point is to start.
 - Don't have time? I hardly believe that a junior developer is busier than all the popular bloggers out there. It's his life and his career and thus his choice.
@@ -67,7 +68,7 @@ As with almost everything else, getting started is the hardest step. Writing the
 
 ## Letting the world know
 
-Now that Sam has published his first post, he wants to let the world know about it. In addition to all the SEO stuff, he can send it to his colleagues and tweet about it. As long as he spends decent efforts on his blog, eventually he will get more and more readers. Btw, in order to help him improve his writing skill, I have a follow up post about [how to write a good blog post](https://www.thuannguy.com/blog/2017/07/21/Dependency-injection-dealing-with-large-object-graph-writing-analysis).
+Now that Sam has published his first post, he wants to let the world know about it. In addition to all the SEO stuff, he can send it to his colleagues and tweet about it. As long as he spends decent efforts on his blog, eventually he will get more and more readers. Btw, in order to help him improve his writing skill, I have a follow up post about [how to write a good blog post](https://www.thuannguy.com/blog/2017/09/12/a-blog-post-about-blog-post).
 
 Hope this help :)
 
