@@ -4,7 +4,7 @@ title: "A blog post about blog posts"
 description: "How to write a good blog post"
 tags: [Blog, blogging, junior developer]
 comments: true
-published: true
+published: false
 categories:
   - Blog
 image: https://www.thuannguy.com/images/blog-image.jpg
