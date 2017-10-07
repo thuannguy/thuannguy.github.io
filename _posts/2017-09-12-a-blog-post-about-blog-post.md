@@ -4,7 +4,7 @@ title: "A blog post about blog posts"
 description: "How to write a good blog post"
 tags: [Blog, blogging, junior developer]
 comments: true
-published: false
+published: true
 categories:
   - Blog
 image: https://www.thuannguy.com/images/blog-image.jpg
@@ -35,13 +35,13 @@ This section is all about continuing on the next point after the first one. For 
 
 ## Always use a spell checker
 
-Although you can be a non-native English speaker, there is no excuse for typos in your writing. You should always use a text editor that has a good spell checker.
+Although you can be a non-native English speaker, there is no excuse for typos in your writing. Always using a text editor that has a good spell checker is a must.
 
 ## But you don't need to follow a single structure for every posts
 
 There is simply no such thing as a best structure nor one that fits all kinds of blog posts. In fact, as a new blogger, high chance is that most of the time you will write about simple things that you work with day in day out. For that type of posts, this structure might be too heavy. Instead, he can opt for a simplified version as demonstrated in this sample: [Caching bug in .Net 4.7](https://www.thuannguy.com/blog/2017/09/18/Caching-bug-in-Net-4-7)
 
-Over time, you will get better in term of both writing skill and professional skills and you will aim for more advanced posts as described in the previous sections. I have a sample for a post of type (1) at [Dependency injection - dealing with large object graph](https://www.thuannguy.com/blog/2017/07/21/Dependency-injection-dealing-with-large-object-graph-writing-analysis) which applies this structure. For example of type (2), you can refer to [To be decided - an argumentative blog post](https://www.thuannguy.com/blog/)(I can write about why unit tests are must-have but it can be a bit boring).
+Over time, you will get better in term of both writing skill and professional skills and you will aim for more advanced posts as described in the previous sections. I have a sample for a post of type (1) at [Dependency injection - dealing with large object graph](https://www.thuannguy.com/blog/2017/07/21/Dependency-injection-dealing-with-large-object-graph-writing-analysis) which applies this structure. For example of type (2), you can refer to [Why IELTS test might be ideal for non-native English speaking software developers](https://www.thuannguy.com/blog/Why-IELTS-test-might-be-ideal-for-software-developers)(I can write about why unit tests are must-have but it can be a bit boring).
 
 ## Closing down
 
