@@ -18,3 +18,5 @@ Recently, one member in my team reported a weird error: our web application kept
 Fixing the issue for my own code without having to wait for a fix from .Net was easy: use UTC DateTime for the absoluteExpiration parameter.
 
 But why did it happen on just one machine? Thinking about it, an object getting from cache is null means it has expired. This in turn means that the absoluteExpiration time had to be before GMT+0 on that machine but be after GMT+0 on other machines. Yeah, time zone was the reason. That specific machine used GMT-8 while all other machine used GMT+7.
+
+*Analysis: this post is written as an example about a short post a problems I encounter with my daily job. The post  needs to start from what the problem is to how to solve and ends with some additionally useful information.*
