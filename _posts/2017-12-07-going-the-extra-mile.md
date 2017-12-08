@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Go the extra mile"
+title: "Going the extra mile"
 description: "Learning by going the extra mile"
 tags: [learning, improve, extra, mile]
 comments: true
@@ -27,7 +27,7 @@ All those things leave just a few hours for all other activities. Yes, there are
 
 Don't we always learn something when we do something? Well, not really. In my experience, doing something doesn't immediately mean I have acquired the knowledge or have turned it into skills. A typical example of mine is regular expression. I have had to write or fix regular expressions many times but I forget everything I read while working with them right after I finished my tasks. I would say that when doing such a task I only acquire the information I need to get it done but not turning that information into knowledge.
 
-![data - information - knowledge - wisdom](https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg")
+![data - information - knowledge - wisdom](https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg?sanitize=true")
 
 On the contrary, there are plenty of other occasions that I was able to turn something I did for my daily job into real knowledge. What made the difference is that I went the extra mile after I finished with it for the job: writing a blog post, doing extra research, doing retrospective, discussing with my peers, doing presentation, training my team. Those extra steps are of great help to expand my understanding and reinforce all the knowledge in my brain.
 
