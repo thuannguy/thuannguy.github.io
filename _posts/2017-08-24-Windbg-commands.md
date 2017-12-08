@@ -11,15 +11,22 @@ Windbg commands
 Occasionally I need to use [Windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg) to analyze issue in production environment but I can never remember its commands and google for them can be annoying because the commands may change between different .Net versions. Perhaps writing a blog post so that I can find them later using Google is a good idea! 
 
 # Common commands
+
 Load SOS:
 ```
 .loadby sos clr
 ```
 
 # Memory commands
+
 Dump all objects of a specific type:
 ```
 !dumpheap -type [Type]
+```
+
+Get memory statistics:
+```
+!dumpheap -stat
 ```
 
 # Exception commands
