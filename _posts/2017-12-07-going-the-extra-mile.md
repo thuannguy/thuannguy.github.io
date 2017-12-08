@@ -13,16 +13,6 @@ image: https://www.thuannguy.com/images/blog-image.jpg
 
 I love learning and improving myself as well as help everyone in my team improve themselves. The key to do that, I believe, is very simple yet hard to apply: going the extra mile in everything we do at work.
 
-## Why learning from what we do at work is a great way to learn
-
-Honestly, why not? A day has 24 hours and out of those hours I have to:
-
-- Work 9-10 hours a day, including lunch time.
-- Sleep 7-8 hours.
-- Eat, transport, and take some rest: 3 hours.
-
-All those things leave just a few hours for all other activities. Yes, there are still 2 days free in the weekend but that is another story for another time. For now, let's look at those 10 hours at work which obviously take the lion share of hours I have a day. In fact, I think that is the typical number for software development professionals. When we realize how many hours we have to spend every day.
-
 ## Why going the extra mile
 
 Don't we always learn something when we do something? Well, not really. In my experience, doing something doesn't immediately mean I have acquired the knowledge or have turned it into skills. A typical example of mine is regular expression. I have had to write or fix regular expressions many times but I forget everything I read while working with them right after I finished my tasks. I would say that when doing such a task I only acquire the information I need to get it done but not turning that information into knowledge.
