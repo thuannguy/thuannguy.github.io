@@ -13,7 +13,7 @@ image: https://www.rhb-shop.ch/en/bernina-express/on-the-road/bernina-express-ib
 
 Dù châu Âu có quá nhiều thành phố nổi tiếng với vô số điểm tham quan cực đẹp, 1 chuyến đi châu Âu có lẽ không trọn vẹn nếu bạn chưa trải nghiệm [đặc sản xe lửa qua các vùng có cảnh đẹp nổi tiếng](https://www.lonelyplanet.com/europe/travel-tips-and-articles/europes-top-10-scenic-rail-journeys/40625c8c-8a11-5710-a052-1479d2778e11).
 
-Trong bài viết này, tôi sẽ giới thiệu về chuyến Bernina Express chạy từ thành phố Chur của Thụy Sĩ qua Tirano của Ý: https://www.rhb.ch/en/panoramic-trains/bernina-express#highlights
+Trong bài viết này, tôi sẽ giới thiệu về chuyến [Bernina Express](https://www.rhb.ch/en/panoramic-trains/bernina-express#highlights) chạy từ thành phố Chur của Thụy Sĩ qua Tirano của Ý.
 
 ## Lộ trình
 
@@ -32,14 +32,14 @@ Hành trình trên cách chuyến tàu nối đuôi nhau liên tục nên cần 
 
 ## Paris - Zurich
 
-Phương tiện dễ nhất để đi từ Paris qua Zurich là tàu cao tốc TGV, khởi hành từ Gare de Lyon ở Paris và kết thúc ở ga trung tâm thành phố Zurich. Vé có thể mua qua website https://loco2.com/. Đoạn ở Pháp tàu chạy với tốc độ lên đến gần 300km/h nhưng rất êm. Vé tàu TGV có thể đặt trước với thời gian và chỗ ngồi xác định.
+Phương tiện dễ nhất để đi từ Paris qua Zurich là tàu cao tốc TGV, khởi hành từ Gare de Lyon ở Paris và kết thúc ở ga trung tâm thành phố Zurich. Vé có thể mua qua [Loco2](https://loco2.com/) . Đoạn ở Pháp tàu chạy với tốc độ lên đến gần 300km/h nhưng rất êm. Vé tàu TGV có thể đặt trước với thời gian và chỗ ngồi xác định.
 
 ![Frecciarossa](
 https://lh3.googleusercontent.com/rNjTj0MLsMg6ZMMdqCe8iZ6_7R5BCFP_p26_j8Jle4jc8yShqX-azJR9F9BV30RkbCSM-AztQWSxkaOusKKjpcq9tcdAzyNB-ylqrxAJxnPvhvUOmd3Mwa2rC8FapXxP2cXsvcM-kA=w2400)
 
 ## Zurich - Chur
 
-Do chuyến Bernina Express khởi hành từ Chur lúc 8h32 sáng nên ngủ đêm tại Chur là phương án khả thi nhất. Di chuyển từ Zurich qua Chur có thể đi bằng tàu quốc nội của Thụy Sĩ, mua vé ở website https://www.sbb.ch/en/. Tàu quốc nội Thụy Sĩ rất đẹp, sạch sẽ và rộng rãi; có 2 tuyến khác nhau chạy định kì 30p/chuyến. Vé tàu Thụy Sĩ có thể đặt trước, nhưng không cần chọn chỗ trước vì tàu rất rộng và ít khách. Thêm nữa 1 vé tàu sẽ có hiệu lực từ 0h ngày chọn mua tới 5h sáng hôm sau (29 tiếng) và khách có thể đi giờ nào cũng được. Ví dụ ngay khi tàu TGV vào ga 5p sau sẽ có 1 chuyến khởi hành đi Chur nên bạn có thể tranh thủ lên ngay, hoặc chờ 30p sau vẫn được.
+Do chuyến Bernina Express khởi hành từ Chur lúc 8h32 sáng nên ngủ đêm tại Chur là phương án khả thi nhất. Di chuyển từ Zurich qua Chur có thể đi bằng tàu quốc nội của Thụy Sĩ, mua vé ở website của [SBB](https://www.sbb.ch/en/). Tàu quốc nội Thụy Sĩ rất đẹp, sạch sẽ và rộng rãi; có 2 tuyến khác nhau chạy định kì 30p/chuyến. Vé tàu Thụy Sĩ có thể đặt trước, nhưng không cần chọn chỗ trước vì tàu rất rộng và ít khách. Thêm nữa 1 vé tàu sẽ có hiệu lực từ 0h ngày chọn mua tới 5h sáng hôm sau (29 tiếng) và khách có thể đi giờ nào cũng được. Ví dụ ngay khi tàu TGV vào ga 5p sau sẽ có 1 chuyến khởi hành đi Chur nên bạn có thể tranh thủ lên ngay, hoặc chờ 30p sau vẫn được.
 
 Nói thêm về Chur: Chur là thị trấn (town) lâu đời nhất của Thụy Sĩ. Hiện giờ diện tích khá nhỏ và dân số ít, nhưng vẫn có vài cảnh khá đẹp mang chút đặc trưng để xem, ví dụ những căn nhà nằm trên sườn đồi. Tùy thời điểm mà bạn có thể sẽ nhìn thấy vài đỉnh núi tuyết xa xa. Vùng này đặc biệt có rất nhiều tiệm bán Kebab.
 
@@ -47,13 +47,13 @@ Ngủ đêm ở Chur nên chọn khách sạn nào trong bán kính 1km tính t�
 
 ## Bernina Express
 
-Vé tàu Bernina Express có thể mua ở https://www.rhb.ch/en/panoramic-trains/bernina-express#highlights. Gợi ý nên mua vé khoang panorama, vì tuy có mắc hơn nhưng sẽ ngắm cảnh được cả 2 bên tàu.
+Vé tàu Bernina Express có thể mua ở [website chính thức](https://www.rhb.ch/en/panoramic-trains/bernina-express#highlights). Gợi ý nên mua vé khoang panorama, vì tuy có mắc hơn nhưng sẽ ngắm cảnh được cả 2 bên tàu.
 
 ![Bernina1](https://lh3.googleusercontent.com/qYV6wQULljAu8Rvu1wC_DJwwm3uJJfLJ04Btlp82T1GuF6fnOn-j0NZHLZGIWx-YDoC3t8xhviM_-4hasQ_vC83j_UK-e5H8Sf-2nwRMJkfPScUqxBwumQ7D64DO2uQONWMBjLbjNQ=w2400)
 
 ![Bernina2](https://lh3.googleusercontent.com/g-oCdLBX2uWturOfA4qIQaXhoTE4sMMbN_QJFkUHxfxmbFKGWZOxpluyQ6FMLEkQfkEO6cop-w5bgG1i1HsNo_jsqX5ITSzLwD-AAfVPWNSQgJYdAZYQd4haIlXwVDaYRLvh_XlwFQ=w2400)
 
-
+![Bernina3](https://lh3.googleusercontent.com/Osctykh1GAilFRqey8jS03sZfYD4LIZdYYqpiXfc4WQT5nB2oc8UdO44q-PEIT5-tsYSUtOTv05xg062RT5Bmpnn3eMWB8jASTq-kqmpMs52irDmQYANJ7uvMEf5IeXRy-aPrpjBdQ=w2400)
 
 ## Tirano - Milan
 
