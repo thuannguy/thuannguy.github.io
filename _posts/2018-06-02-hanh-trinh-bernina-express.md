@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hành trình Bernina Express"
-description: "Hành trình Bernina Express"
+title: "Bernina Express"
+description: "Bernina Express"
 tags: [travel, train, europe, alps]
 comments: true
 published: true
