@@ -78,3 +78,4 @@ exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "R
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
