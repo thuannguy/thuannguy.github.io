@@ -1,0 +1,11 @@
+---
+import { SITE } from '../site';
+const { author } = SITE;
+---
+<ul class="social">
+  {author.email && <li><a href={`mailto:${author.email}`}>Email</a></li>}
+  {author.github && <li><a href={`https://github.com/${author.github}`} rel="me">GitHub</a></li>}
+  {author.stackoverflow && <li><a href={author.stackoverflow} rel="me">Stack Overflow</a></li>}
+  {author.twitter && <li><a href={`https://x.com/${author.twitter}`} rel="me">X / Twitter</a></li>}
+  <li><a href="/feed.xml">RSS</a></li>
+</ul>

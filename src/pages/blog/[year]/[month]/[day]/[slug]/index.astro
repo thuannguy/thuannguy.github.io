@@ -1,0 +1,66 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../../../../layouts/Base.astro';
+import { SITE } from '../../../../../../site';
+import { formatDate, getPosts, postParams, type Post } from '../../../../../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  // posts are newest first: "previous" is the older post, "next" the newer one
+  return posts.map((post, i) => ({
+    params: postParams(post),
+    props: { post, previous: posts[i + 1], next: posts[i - 1] },
+  }));
+}
+
+interface Props {
+  post: Post;
+  previous?: Post;
+  next?: Post;
+}
+const { post, previous, next } = Astro.props;
+const { Content } = await render(post);
+---
+<Base
+  title={post.data.title}
+  description={post.data.description ?? post.summary}
+  image={post.data.image}
+  type="article"
+  published={post.date}
+>
+  <article class="container container--narrow post">
+    <header class="post__header">
+      <a class="back-link" href="/blog/">&larr; All posts</a>
+      <h1>{post.data.title}</h1>
+      <p class="post__meta">
+        <time datetime={post.date.toISOString()}>{formatDate(post.date, 'long')}</time>
+        <span aria-hidden="true">&middot;</span>
+        <span>{post.readingMinutes} min read</span>
+      </p>
+      {post.data.tags.length > 0 && (
+        <ul class="tags">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>
+      )}
+    </header>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <aside class="author-card">
+      <img src={SITE.author.avatar} alt="" width="64" height="64" loading="lazy" />
+      <div>
+        <p class="author-card__name">{SITE.author.name}</p>
+        <p>{SITE.author.role}. Lead architect of Safewhere Identify. <a href="/">About me &rarr;</a></p>
+      </div>
+    </aside>
+
+    <nav class="post-nav" aria-label="More posts">
+      {previous ? (
+        <a class="post-nav__link" href={previous.url}><span>Previous</span>{previous.data.title}</a>
+      ) : <span />}
+      {next && (
+        <a class="post-nav__link post-nav__link--next" href={next.url}><span>Next</span>{next.data.title}</a>
+      )}
+    </nav>
+  </article>
+</Base>

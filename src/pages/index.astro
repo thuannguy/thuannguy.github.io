@@ -1,0 +1,120 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+import { SITE } from '../site';
+import { getPosts } from '../lib/posts';
+
+const latest = (await getPosts()).slice(0, 5);
+---
+<Base>
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">{SITE.author.role}</p>
+        <h1>I design and build secure identity platforms.</h1>
+        <p class="lead">
+          I'm Thuan, the lead architect of <strong>Safewhere Identify</strong>, an identity broker
+          and access-management platform used by public and private organisations in Denmark and abroad.
+          I lead teams that deliver federation, single sign-on and secure .NET systems for
+          national-scale public-sector and healthcare infrastructure.
+        </p>
+        <div class="hero__actions">
+          <a class="button" href="#experience">About my work</a>
+          <a class="button button--ghost" href="/blog/">Read the blog</a>
+        </div>
+      </div>
+      <img class="hero__photo" src={SITE.author.avatar} alt={`Portrait of ${SITE.author.name}`} width="280" height="297" />
+    </div>
+  </section>
+
+  <section class="stats" aria-label="At a glance">
+    <div class="container stats__grid">
+      <div class="stat"><span class="stat__value">20+</span><span class="stat__label">years building on .NET</span></div>
+      <div class="stat"><span class="stat__value">10+</span><span class="stat__label">years leading Safewhere Identify architecture</span></div>
+      <div class="stat"><span class="stat__value">200+</span><span class="stat__label">OIOSAML 3 logins per second in load tests</span></div>
+      <div class="stat"><span class="stat__value">Hundreds</span><span class="stat__label">of applications connected through SSO</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container container--narrow">
+      <header class="section__header">
+        <h2>Experience</h2>
+      </header>
+      <div class="prose">
+        <p>
+          I have spent most of my career on identity and access management. As lead architect of
+          Safewhere Identify, I work on identity brokering, security token services, claims transformation,
+          user provisioning and role management, and on connecting applications to national and local
+          identity providers. The platform runs identity brokers and single sign-on for municipal, state
+          and healthcare infrastructure, where correctness, security and backward compatibility are not optional.
+        </p>
+        <p>
+          A large part of my work has been bringing systems onto new national standards without breaking
+          the applications that depend on them: MitID, NemLog-in 3, OIOSAML 3 and NSIS. I have also built
+          tooling that the wider .NET ecosystem was missing, such as an open-source client that lets modern
+          .NET call SAML-protected SOAP services, and I am currently leading the migration of a large identity
+          platform from .NET Framework to .NET 10.
+        </p>
+        <p>
+          Today I work as Technical Lead and Product Owner. I turn business and regulatory needs into
+          priorities, designs and estimates, coordinate customers, operations and other suppliers, and
+          stay hands-on so that decisions reflect the real system. I run projects through a secure
+          development lifecycle with threat modelling, code review, dependency and static analysis,
+          automated, load and security testing, and I am introducing AI-assisted development with
+          human review of every output.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <header class="section__header">
+        <h2>Skills</h2>
+        <p>Where security, standards and delivery meet.</p>
+      </header>
+      <div class="cards">
+        <article class="card">
+          <h3>Identity &amp; federation</h3>
+          <p>Identity brokering, security token services, claims transformation, user provisioning and role management.</p>
+          <p class="card__tags">SAML 2.0 · OIOSAML · WS-Federation · WS-Trust · OAuth 2.0 · OpenID Connect · FAPI 2.0 · OIO IDWS · MitID · NemLog-in · NSIS</p>
+        </article>
+        <article class="card">
+          <h3>Security architecture</h3>
+          <p>Secure SDLC with threat modelling, OWASP-driven reviews, dependency and static analysis, and manual and automated security testing.</p>
+        </article>
+        <article class="card">
+          <h3>Platforms &amp; performance</h3>
+          <p>Building secure .NET systems that stay fast and stable under high traffic, and finding the root cause when production misbehaves.</p>
+          <p class="card__tags">.NET · C# · ASP.NET · SQL Server · PostgreSQL · Azure · IIS · Docker · JMeter · WinDbg · PerfView</p>
+        </article>
+        <article class="card">
+          <h3>Technical leadership</h3>
+          <p>Turning business and regulatory needs into priorities, designs, estimates and staged deliveries, and explaining technical choices in plain language.</p>
+          <p class="card__tags">Architecture · Product ownership · Estimation · Stakeholder management · AI-assisted development</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <header class="section__header">
+        <h2>Latest writing</h2>
+        <p>Notes on .NET, security, performance and the craft of software development.</p>
+      </header>
+      <PostList posts={latest} summaries />
+      <p class="section__more"><a href="/blog/">All posts &rarr;</a></p>
+    </div>
+  </section>
+
+  <section class="section section--cta" id="contact">
+    <div class="container container--narrow cta">
+      <h2>Let's talk</h2>
+      <p>Working on federation, SSO or a security-critical .NET system? I'm happy to compare notes.</p>
+      <SocialLinks />
+    </div>
+  </section>
+</Base>

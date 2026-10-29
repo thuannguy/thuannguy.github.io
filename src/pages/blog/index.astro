@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getPosts, type Post } from '../../lib/posts';
+
+const description = 'Notes on .NET, security, performance and the craft of software development.';
+const byYear = new Map<number, Post[]>();
+for (const post of await getPosts()) {
+  const year = post.date.getUTCFullYear();
+  byYear.set(year, [...(byYear.get(year) ?? []), post]);
+}
+---
+<Base title="Blog" description={description}>
+  <div class="container container--narrow page">
+    <header class="page__header">
+      <h1>Blog</h1>
+      <p class="lead">{description}</p>
+    </header>
+    {[...byYear].map(([year, posts]) => (
+      <section class="year">
+        <h2 class="year__title">{year}</h2>
+        <PostList posts={posts} summaries />
+      </section>
+    ))}
+  </div>
+</Base>

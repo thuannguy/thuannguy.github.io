@@ -1,8 +1,16 @@
-_site
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# logs and env
+npm-debug.log*
+.env
+.env.*
+
+# OS / editor
 .DS_Store
 *.sublime-project
 *.sublime-workspace
-codekit-config.json
-node_modules
-Gemfile.lock
-.sass-cache
