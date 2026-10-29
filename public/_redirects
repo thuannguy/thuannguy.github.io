@@ -1,0 +1,5 @@
+/about/      /       301
+/about       /       301
+/archive/    /blog/  301
+/archive     /blog/  301
+/sitemap.xml /sitemap-index.xml 301
